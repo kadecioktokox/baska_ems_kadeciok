@@ -19,7 +19,7 @@ Citizen.CreateThread(function()
 	while true do
 		Citizen.Wait(0)
 		local coords = GetEntityCoords(PlayerPedId())            
-        if (GetDistanceBetweenCoords(coords, kordy, true) < 10) then
+        if (GetDistanceBetweenCoords(coords, kordy, true) < ) then
             DrawMarker(27, kordy, 0.0, 0.0, 0.0, 0, 0.0, 0.0, 2.5, 2.5, 2.5, 136, 243, 216, 100, false, true, 2, false, false, false, false)
             if GetDistanceBetweenCoords(coords, kordy, true) < 2 then
                 alert("Naciśnij ~INPUT_PICKUP~ aby lokalny medyk mógł ci pomóc")
